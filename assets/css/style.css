@@ -1,0 +1,88 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.style {
+	background-color: #ffffff;
+	font-family: 'Georgia',Times,"Times New Roman",serif;
+	width: 960px;
+}
+
+.h1 {
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 24px;
+	padding: 20px;
+	margin-left: 270px;
+}
+
+.list {
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.hover:hover {
+	background-color: #ffffff;
+}
+
+.middlefloat:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.style2 {
+	background-color: #efefef;
+	padding: 200px;
+}
+
+.aboutme {
+	float: left;
+	background-color: #ffffff;
+}
+
+.AM {
+	color: #4aaaa5;
+	font-family: 'Georgia',Times,"Times New Roman",serif;
+	width: 100px;
+
+}
+
+.p1 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.connect {
+	float: right;
+	background-color: #ffffff;
+}
+
+.h3 {
+	font-family: 'Georgia',Times,"Times New Roman",serif;
+}
+
+.copy {
+	background-color: #666666;
+	text-align: center;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
+	width: 960px;
+}
+.footer,
+.push {
+	height: 50px;
+	width: 960px;
+}
